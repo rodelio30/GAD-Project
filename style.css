@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+  min-height: 10vh;
+  /* background-color: linear-gradient(#2b1055, #7597de); */
+  /* background-color: rgb(236, 238, 236); */
+  background: linear-gradient(125deg, #ffffff 0%, rgb(0, 138, 85) 100%);
+}
+.homepage
+{
+  height: 900px;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 100px 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  background: linear-gradient(to left, rgb(0, 138, 85), rgb(35, 151, 80) 25%, rgb(35, 151, 80) 75%, rgb(0, 138, 85) 100%);
+}
+header a:hover
+{
+  opacity: 0.9;
+}
+header ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+  background: rgb(205, 255, 216);
+  color: #2b1055;
+}
+section
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section img
+{
+  height: auto;
+  width: 55%;
+  padding-top: 2%;
+}
+section img:hover{
+  opacity: 0.8;
+}
+.left-content
+{
+  position: relative;
+  padding-top: 30px;
+}
+#text
+{
+  color: rgb(16, 94, 0);
+  font-size: 3.5vw;
+  white-space:pre-line;
+  display: inline;
+}
+#text:hover
+{
+  opacity: 0.8;
+}
+#text-content 
+{
+  color: rgb(2, 0, 0);
+  font-size: 1vw;
+  margin: 20px 0 20px;
+}
+.btn-learn
+{
+  height: 100px;
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: rgb(0, 167, 64);
+  color: rgb(2, 0, 0);
+  font-size: 1.5em;
+}
+.sec
+{
+  padding: 100px;
+  background: blue;
+  position: relative;
+}
+.sec h2
+{
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.sec p
+{
+  font-size: 1.2em;
+  color: #fff;
+}
+
